@@ -1,12 +1,14 @@
 {
   "name": "camera",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "quagga": "^0.12.1",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11"
   },
